@@ -1,0 +1,38 @@
+body, input {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-top:27px;
+}
+#content {
+	background-color: #eee;
+	width: 450px;
+	height:auto;
+	margin: 0 auto;
+	border: 1px solid #aaa;
+	-moz-border-radius: 10px;
+	-moz-box-shadow: 0 0 10px #aaa;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 0 0 10px #aaa;
+	padding: 10px;
+}
+#form1 label {
+	display: block;
+	font-size: 16px;
+	line-height: 25px;
+}
+#form1 input[type=text], #form1 input[type=password] {
+	padding: 2px;
+	font-size: 16px;
+	line-height: 30px;
+	width: 445px;
+}
+#form1 input[type=submit] {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px;
+}
+.success {
+	color: #060;
+}
+.error {
+	color: red;
+}
